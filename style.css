@@ -79,3 +79,20 @@ h3{
     height: 1000px;
 }
 /*emma's code*/
+/*for quote over image*/
+.quote{position:absolute; top:0; font-size:24px; /*background:rgba(251,251,251,0.5);*/
+/*padding:10px 20px;*/ width:98%; text-align:right;}
+.quote {color:#c44e47
+;}
+
+/*for job roles over image*/
+/*I took this code out just because I'm not really sure what role it plays .relative{position:relative; width:600px;}*/
+.role{position:absolute; bottom:0; font-size:24px;
+/*padding:10px 20px;*/ width:100%; text-align:center;}
+.role{color:#e6eff1;}
+
+/*for Name over image */
+/*I took this code out just because I'm not really sure what role it plays .relative{position:relative; width:600px;}*/
+.name{position:absolute; bottom:0; font-size:40px;
+padding:20px 0px; width:100%; text-align:center;}
+.name {color:#e6eff1;}
