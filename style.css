@@ -3,11 +3,7 @@ margin: 0;
 background-color: #E6EFF1;
 }
 
-.content {
-    margin: 2%;
-    padding-left: 90px;
 
-}
 .mission {
      margin: 2%;
     padding-left: 90px;
@@ -75,7 +71,7 @@ h4{
 
 
 .scroll1{
-    margin-top:50%;
+    margin-top:30%;
     margin-left:0;
     background-color: white;
     height: 1000px;
@@ -85,6 +81,40 @@ h4{
     margin-left:0;
     background-color: #E6EFF1;
     height: 1000px;
+}
+
+/*PARALLAX EFFECT*/
+ .splash-container {
+    /*background-image:url(../img/yellow%20white.jpg);
+     */
+    z-index: -1;
+    overflow: hidden;
+    /* The following styles are required for the "scroll-over" effect */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+}
+
+.splash {
+    margin: auto;
+    position: absolute;
+    top: 100px; left: 0; bottom: 0; right: 0;
+    text-align: center;
+}
+
+.content {
+    /* These styles are required for the "scroll-over" effect */
+    margin: 2%;
+    padding-left: 90px;
+    
+    position: absolute;
+    top: 87%;
+    width: 100%;
+    min-height: 12%;
+    z-index: 2;
+    background: white;
 }
 /*emma's code*/
 /*for quote over image*/
