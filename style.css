@@ -6,7 +6,7 @@ background-color: #E6EFF1;
 .content {
     margin: 2%;
     padding-left: 90px;
-    
+
 }
 .mission {
      margin: 2%;
@@ -41,7 +41,7 @@ h3{
 }
 .circle {
     outline: none;
-    
+
 }
 .circle1, .circle2, .circle3 {
     position: absolute;
@@ -56,7 +56,7 @@ h3{
 .circle2{
     z-index: 0;
     padding-left: 500px;
-    
+
 }
 
 .circle3{
@@ -78,3 +78,5 @@ h3{
     background-color: #E6EFF1;
     height: 1000px;
 }
+
+/*SAVAYA PORTFOLIO GRID
