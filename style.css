@@ -100,22 +100,21 @@ h4{
 .splash {
     margin: auto;
     position: absolute;
-    top: 100px; left: 0; bottom: 0; right: 0;
-    text-align: center;
+    top: 0px; left: 80px; bottom: 0; right: 0;
 }
 
 .content {
     /* These styles are required for the "scroll-over" effect */
-    margin: 2%;
-    padding-left: 90px;
-    
     position: absolute;
-    top: 87%;
+    top: 100%;
     width: 100%;
     min-height: 12%;
     z-index: 2;
     background: white;
 }
+
+
+
 /*emma's code*/
 /*for quote over image*/
 .quote{position:absolute; top:0; font-size:24px; /*background:rgba(251,251,251,0.5);*/
