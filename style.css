@@ -105,15 +105,8 @@ h4{
 
 .content {
     /* These styles are required for the "scroll-over" effect */
-<<<<<<< HEAD
-<<<<<<< HEAD
     margin: 2%;
     padding-left: 90px;
-
-=======
->>>>>>> 80ab1d233875fa56eff1deb406302f9916027fde
-=======
->>>>>>> 80ab1d233875fa56eff1deb406302f9916027fde
     position: absolute;
     top: 100%;
     width: 100%;
