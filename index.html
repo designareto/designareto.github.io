@@ -7,7 +7,44 @@
       <link href="https://fonts.googleapis.com/css?family=Rubik:300,400" rel="stylesheet">
 
               <link href="style.css" rel="stylesheet">
+       <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+ <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      
+      
+      <script>
+ //script for the movable grid
+  $( function() {
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+  } );
+  </script>
     </head>
+    
+    <!--THIS IS THE HAMBURGER NAV MENU-->
+    
+    <nav role="navigation">
+  <div id="menuToggle">
+
+    <input type="checkbox" />
+    
+
+    <span></span>
+    <span></span>
+    <span></span>
+
+    <ul id="menu">
+      <a href="index.html"><li>home</li></a>
+      <a href="emma.html"><li>meet emma</li></a>
+      <a href="sav.html"><li>meet savaya</li></a>
+      <a href="sana.html"><li>meet sana</li></a>
+    </ul>
+  </div>
+</nav>
+    <!--END HAMBURGER NAV MENU-->
+    
+    
     <body>
      
       <div class="splash-container">
@@ -41,15 +78,45 @@
              <div class="content">
          <div class="scroll1">
              <div class="mission">
-                 <h1>Welcome!</h1>
-            <h2>Hello all you wonderful people! Welcome to Designare, our little design collective in the heart of Toronto. We are here to make the world a more beautiful place through bold designs, while always keeping an eye to the future/horizon.</h2>
+            <h2>Hello all you wonderful people! <br>Welcome to Designare, our little design collective in the heart of Toronto. We are here to make the world a more beautiful place through bold designs, while always keeping an eye to the future/horizon.</h2>
             </div>
             
             </div>
          <div class="scroll2">
           
+             <div class="movablegrid">
+            <ul id="sortable">
+ 
+ <li class="ui-state-default ui-sortable-handle ui-sortable-helper" style="width: 400px; height: 400px;"><img src="https://image.ibb.co/d15r0J/tile1.png" style="width: 400px; height: 400px;"></li>
+ 
+ <li class="ui-state-default ui-sortable-handle ui-sortable-helper" style="width: 400px; height: 400px;"><img src="https://image.ibb.co/kNpJfJ/tile2.png" style="width: 400px; height: 400px;"></li>
+ 
+ <li class="ui-state-default ui-sortable-handle ui-sortable-helper" style="width: 400px; height: 400px;"><img src="https://image.ibb.co/iMqVud/tile3.png" style="width: 400px; height: 400px;"></li>
+ 
+ <li class="ui-state-default ui-sortable-handle ui-sortable-helper" style="width: 400px; height: 400px;"><img src="https://image.ibb.co/cMM3Ed/tile4.png" style="width: 400px; height: 400px;"></li>
+ 
+<li class="ui-state-default ui-sortable-handle ui-sortable-helper" style="width: 400px; height: 400px;"><img src="https://image.ibb.co/g6CGkJ/SLIDE_TITLE.jpg" style="width: 400px; height: 400px;"></li>
+ 
+ <li class="ui-state-default ui-sortable-handle ui-sortable-helper" style="width: 400px; height: 400px;"><img src="https://image.ibb.co/d0xofJ/tile5.png" style="width: 400px; height: 400px;"></li>
+ 
+ <li class="ui-state-default ui-sortable-handle ui-sortable-helper" style="width: 400px; height: 400px;"><img src="https://image.ibb.co/i8jyXy/STRATEGY.jpg" style="width: 400px; height: 400px;"></li>
+ 
+ <li class="ui-state-default ui-sortable-handle ui-sortable-helper" style="width: 400px; height: 400px;"><img src="https://image.ibb.co/bXAfCy/DESIGN.jpg" style="width: 400px; height: 400px;"></li>
+ 
+ <li class="ui-state-default ui-sortable-handle ui-sortable-helper" style="width: 400px; height: 400px;"><img src="https://image.ibb.co/djZhsy/Screen_Shot_2018_06_13_at_10_17_58_PM.png" style="width: 400px; height: 400px;"></li>
+ 
+ <li class="ui-state-default ui-sortable-handle ui-sortable-helper" style="width: 400px; height: 400px;"><img src="https://image.ibb.co/fS3E5J/BRANDING.jpg" style="width: 400px; height: 400px;"></li>
+ 
+ <li class="ui-state-default ui-sortable-handle ui-sortable-helper" style="width: 400px; height: 400px;"><img src=
+"https://image.ibb.co/kWrQSy/tile7.png" style="width: 400px; height: 400px;"></li>
+ 
+ <li class="ui-state-default ui-sortable-handle ui-sortable-helper" style="width: 400px; height: 400px;">
+   <img src="https://image.ibb.co/mVMs7y/tile8.png" style="width: 400px; height: 400px;"></li>
+ 
+ </ul>
+             </div>
+             </div>
             
-            </div>
         </div>
     </body>
 </html>
