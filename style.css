@@ -245,8 +245,7 @@ h4{
 
 /*PARALLAX EFFECT*/
  .splash-container {
-    /*background-image:url(../img/yellow%20white.jpg);
-     */
+
     z-index: -1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -275,6 +274,7 @@ h4{
 
 
 
+
 /*emma's code*/
 /*for quote over image*/
 .quote{position:absolute; top:0; font-size:24px; /*background:rgba(251,251,251,0.5);*/
@@ -296,21 +296,7 @@ padding:20px 0px; width:100%; text-align:center;}
 
 /*SAVS GRID PORTFOLIO BELOW */
 
-.savayacontent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  background: #f5f4f4;
-  font-size: 13px;
-}
-@supports (display: grid) {
- .savayacontent {
-    display: block;
-  }
-}
+
 
 .message {
   border: 1px solid #d2d0d0;
@@ -369,6 +355,7 @@ padding:20px 0px; width:100%; text-align:center;}
   cursor: pointer;
   counter-increment: item-counter;
 }
+
 .item:nth-of-type(1n) {
   background-image: url(https://image.ibb.co/cxEfaJ/food.jpg);
   background-repeat: no-repeat;
@@ -400,21 +387,28 @@ padding:20px 0px; width:100%; text-align:center;}
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+
 .item:after {
   content: '';
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: black;
-  opacity: 0.3;
-  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  transition: opacity 0s ease-in-out;
 }
 .item:hover {
+  height: 100%;
+  width: 100%;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+  
 }
 .item:hover:after {
-  opacity: 0;
+  opacity: .5;
+  background-color: #c44e47;
+
 }
 .item--medium {
   grid-row-end: span 2;
@@ -434,20 +428,34 @@ padding:20px 0px; width:100%; text-align:center;}
 .item__details {
   position: relative;
   z-index: 1;
-  padding: 15px;
-  color: #444;
-  background: #fff;
+  padding: 100px;
   text-transform: lowercase;
   letter-spacing: 1px;
-  color: #828282;
-}
-.item__details:before {
-  content: counter(item-counter);
-  font-weight: bold;
-  font-size: 1.1rem;
-  padding-right: 0.5em;
-  color: #444;
+  color: #c44e47;
+  text-align:center;
+  opacity:0;
+  
+  }
+
+.item__details:before{
+  font-weight: 0;
+  font-size: 1.5 rem; 
+   opacity: 0;
 }
 
-
+.item__details:hover {
+    height: 100%;
+  width: 100%;
+  transform: opacity 1;
+  position: relative;
+  padding: 5px;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  color: #e6eff1;
+  text-align:center;
+  font-size: 45px;
+  opacity:1;
+  
+  }
+  
 
