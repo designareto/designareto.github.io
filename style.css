@@ -4,153 +4,6 @@ background-color: #E6EFF1;
 }
 
 
-/*NAV STYLE*/
-a
-{
-  text-decoration: none;
-  color: #232323;
-  
-  transition: color 0.3s ease;
-}
-
-a:hover
-{
-  color: tomato;
-}
-
-nav {
-    position: fixed;
-}
-#menuToggle
-{
-
-  position: fixed;
-  top: 50px;
-  left: 50px;
-  
-  z-index: 5;
-  
-  -webkit-user-select: none;
-  user-select: none;
-}
-
-#menuToggle input
-{
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-  
-  cursor: pointer;
-  
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-  
-  -webkit-touch-callout: none;
-}
-
-/*
- * Just a quick hamburger
- */
-#menuToggle span
-{
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
-  
-  background: #cdcdcd;
-  border-radius: 3px;
-  
-  z-index: 1;
-  
-  transform-origin: 4px 0px;
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
-}
-
-#menuToggle span:first-child
-{
-  transform-origin: 0% 0%;
-}
-
-#menuToggle span:nth-last-child(2)
-{
-  transform-origin: 0% 100%;
-}
-
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
-#menuToggle input:checked ~ span
-{
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
-}
-
-/*
- * But let's hide the middle one.
- */
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-/*
- * Ohyeah and the last one should go the other direction
- */
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
-  transform: rotate(-45deg) translate(0, -1px);
-}
-
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
-#menu
-{
-  position: fixed;
-  width: 300px;
-  margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px;
-  
-  background: #ededed;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  
-  transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}
-
-#menu li
-{
-  padding: 10px 0;
-  font-size: 22px;
-}
-
-/*
- * And let's slide it in from the left
- */
-#menuToggle input:checked ~ ul
-{
-  transform: none;
-}
-
-/*end nav style*/
-
 .mission {
      margin: 2%;
     padding-left: 90px;
@@ -161,16 +14,19 @@ nav {
 
 
 h1 {
-    font-size: 900%;
+    font-size: 150px;
+    color: #C44E47;
     font-weight: 100;
 }
 h2 {
         font-weight: 100;
+    color: #C44E47;
     font-size: 60px;
     line-height: 90px;
 
 }
 h3{
+     color: #C44E47;
     font-weight: 100;
     font-size:30px;
     line-height: 40px;
@@ -183,64 +39,48 @@ h4{
     line-height: 40px;
     text-align: Center;
 }
-.title {
-            color: #EFBA76;
-    margin-left: 4%;
-}
 
 .definition {
     margin-top:-50px;
-
 }
-
 .circle {
     outline: none;
 
 }
 .circle1, .circle2, .circle3 {
-    margin-top: -20px;
     position: absolute;
    float:left;
 }
 
 .circle1 {
-    padding-left: 75%;
-    padding-top:15%;
+    padding-left: 700px;
+    padding-top:200px;
     z-index: 3;
 }
 .circle2{
     z-index: 0;
-    padding-left: 54%;
+    padding-left: 500px;
 
 }
 
 .circle3{
     z-index: 2;
-    padding-right:2%;
-    padding-left: 75%;
+    padding-right:200px;
+    padding-left: 700px;
 }
 
 
 .scroll1{
-    margin-top:10%;
+    margin-top:30%;
     margin-left:0;
     background-color: white;
-    color: #D3A5A0;
     height: 1000px;
 }
 .scroll2{
-    margin-top:2%;
+    margin-top:50%;
     margin-left:0;
     background-color: #E6EFF1;
-    height: 2000px;
-}
-
-/*STYLES FOR THE MOVABLE GRID ON HOMEPAGE*/
-#sortable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
- #sortable li { margin: 3px 3px 3px 0;  float: left; width: 163px; height: 163px; font-size: 4em; text-align: center; }
-.movablegrid{
-    margin-left: 8%;
-    padding-top: 230px;
+    height: 1000px;
 }
 
 /*PARALLAX EFFECT*/
@@ -265,6 +105,15 @@ h4{
 
 .content {
     /* These styles are required for the "scroll-over" effect */
+<<<<<<< HEAD
+<<<<<<< HEAD
+    margin: 2%;
+    padding-left: 90px;
+
+=======
+>>>>>>> 80ab1d233875fa56eff1deb406302f9916027fde
+=======
+>>>>>>> 80ab1d233875fa56eff1deb406302f9916027fde
     position: absolute;
     top: 100%;
     width: 100%;
@@ -296,7 +145,9 @@ padding:20px 0px; width:100%; text-align:center;}
 
 /*SAVS GRID PORTFOLIO BELOW */
 
-.savayacontent {
+@import url("https://fonts.googleapis.com/css?family=Arvo");
+body,
+html {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -305,9 +156,11 @@ padding:20px 0px; width:100%; text-align:center;}
   height: 100%;
   background: #f5f4f4;
   font-size: 13px;
+  font-family: 'Rubik', monospace;
 }
 @supports (display: grid) {
- .savayacontent {
+  body,
+  html {
     display: block;
   }
 }
@@ -339,6 +192,10 @@ padding:20px 0px; width:100%; text-align:center;}
   }
 }
 
+h1 {
+  font-size: 2rem;
+  margin: 0 0 1.5em;
+}
 
 .grid {
   display: grid;
@@ -369,6 +226,7 @@ padding:20px 0px; width:100%; text-align:center;}
   cursor: pointer;
   counter-increment: item-counter;
 }
+
 .item:nth-of-type(1n) {
   background-image: url(https://image.ibb.co/cxEfaJ/food.jpg);
   background-repeat: no-repeat;
@@ -400,21 +258,27 @@ padding:20px 0px; width:100%; text-align:center;}
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 .item:after {
   content: '';
   position: absolute;
   width: 100%;
   height: 100%;
   background-color: black;
-  opacity: 0.3;
-  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  transition: opacity 0s ease-in-out;
 }
 .item:hover {
+  height: 100%;
+  width: 100%;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+
 }
 .item:hover:after {
-  opacity: 0;
+  opacity: .5;
+  background-color: #c44e47;
+
 }
 .item--medium {
   grid-row-end: span 2;
@@ -434,20 +298,31 @@ padding:20px 0px; width:100%; text-align:center;}
 .item__details {
   position: relative;
   z-index: 1;
-  padding: 15px;
-  color: #444;
-  background: #fff;
+  padding: 100px;
   text-transform: lowercase;
   letter-spacing: 1px;
-  color: #828282;
+  color: #c44e47;
+  text-align:center;
+  opacity:0;
+
+  }
+
+.item__details:before{
+  font-weight: 0;
+  font-size: 1.5 rem;
+   opacity: 0;
 }
-.item__details:before {
-  content: counter(item-counter);
-  font-weight: bold;
-  font-size: 1.1rem;
-  padding-right: 0.5em;
-  color: #444;
-}
 
-
-
+.item__details:hover {
+    height: 100%;
+  width: 100%;
+  transform: opacity 1;
+  position: relative;
+  padding: 5px;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  color: #e6eff1;
+  text-align:center;
+  font-size: 45px;
+  opacity:1;
+  }
