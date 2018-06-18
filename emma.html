@@ -14,8 +14,16 @@
 body, html {
     height: 100%;
     margin: 0;
+    background-color: #EFBA76;
 }
-
+    .name {
+        color: #EFBA76;
+    }
+    
+     .portfoliotitle, p, .bio h2  {
+        color: #C44E47;
+    }
+ 
 .bg {
     /* The image used */
     background-image: url("https://image.ibb.co/e4LDFJ/EMMA_DONE.jpg");
@@ -27,6 +35,40 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+    
+    /*THIS IS FOR THE PORTFOLIO IMAGES*/
+    
+    .item:nth-of-type(1n) {
+  background-image: url(https://image.ibb.co/mGe0ny/written.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.item:nth-of-type(2n) {
+  background-image: url(https://image.ibb.co/kPx9fJ/ux1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item:nth-of-type(3n) {
+  background-image: url(https://image.ibb.co/kjk6Sy/Screenshot_136.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item:nth-of-type(4n) {
+  background-image: url(https://image.ibb.co/k5a6Sy/Screenshot_135.png);
+}
+.item:nth-of-type(5n) {
+  background-color: #80ced6;
+}
+.item:nth-of-type(6n) {
+  background-image: url(https://image.ibb.co/g34N0J/Screenshot_10.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item:nth-of-type(7n) {
+  background-image: url(https://image.ibb.co/k7pN0J/24068080_1615754461828217_6262020622250264801_n.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 </style>
 </head>
@@ -54,20 +96,19 @@ body, html {
 <body>
   <!-- for the text on the image -->
 <div class="bg"></div>
-  
-  <p class="quote">"A Personal Quote Here Maybe?"</a> </p>
-<p class="name">Emma</a> </p>
- <p class="role">Content Designer & Hug-Giver</a> </p> 
+    
+  <div class="name"><h1>Emma</h1>
+ <div class="role"><h3>Content Designer &amp; Hug-Giver</h3> </div></div>
 
 <!-- Bio -->
-<p> Emma Brito content designer residing in Toronto. She earned her BA in Culture Studies from Ryerson University and later studied documentary media as a creative outlet for the concepts studied. She then worked as a videographer for IVI Magazine. Emma is currently earning her Master’s in Digital Futures from OCAD University, with a focus on UX and web design. Emma also has experience in copywriting, having worked as a freelance copywriter with 9thCo Digital agency. She is passionate about effective communication and meaningful content.</p>
- 
-   
-      <div class="message">
+        <div class="bio">
+                        <h2>About</h2>
 
-</div>
+            <p> Emma Brito content designer residing in Toronto. She earned her BA in Culture Studies from Ryerson University and later studied documentary media as a creative outlet for the concepts studied. She then worked as a videographer for IVI Magazine. Emma is currently earning her Master’s in Digital Futures from OCAD University, with a focus on UX and web design. Emma also has experience in copywriting, having worked as a freelance copywriter with 9thCo Digital agency. She is passionate about effective communication and meaningful content.</p></div>
+ 
+
 <section class="section">
-  <h1>Savaya's Portfolio</h1>
+  <h1 class="portfoliotitle">Emma's Portfolio</h1>
   <div class="grid">
     <div class="item">
       <div class="item__details">

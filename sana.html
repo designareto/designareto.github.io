@@ -14,8 +14,14 @@
 body, html {
     height: 100%;
     margin: 0;
+    background-color: #D3A5A0;
 }
 
+    .name{color: #D3A5A0;}
+    
+    .portfoliotitle, p, .bio h2  {
+          color: #E6EFF1;
+    }
 .bg {
     /* The image used */
     background-image: url("https://image.ibb.co/dtS2AJ/SANADONE.jpg");
@@ -28,6 +34,42 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+    /*THIS IS FOR THE PORTFOLIO IMAGES*/
+    
+    .item:nth-of-type(1n) {
+  background-image: url(https://image.ibb.co/ehabud/teckle.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.item:nth-of-type(2n) {
+  background-image: url(https://image.ibb.co/h7kn0J/Screen_Shot_2018_06_12_at_10_28_24_AM.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item:nth-of-type(3n) {
+  background-image: url(https://image.ibb.co/hDv9Ed/feb_program.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item:nth-of-type(4n) {
+  background-image: url(https://image.ibb.co/dgKrSy/diverge.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+
+
+}
+
+.item:nth-of-type(6n) {
+  background-image: url(https://image.ibb.co/hF9x0J/business_card.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item:nth-of-type(7n) {
+  background-image: url(https://image.ibb.co/jbA4fJ/CD_Design.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 </style>
 </head>
         <!--THIS IS THE HAMBURGER NAV MENU-->
@@ -60,12 +102,13 @@ body, html {
 
 <!-- Bio -->
 <div class="bio">
+            <h2>About</h2>
 <p> Sana Shepko is a graphic designer born and raised in the Hudson Valley region of New York State. She earned her BFA in Graphic Design from the State University of New York at New Paltz and is earning her Master's in Digital Futures from OCAD University in Toronto, Canada. Sana is also the manager and violinist of the Ukrainian folk band, Korinya, and performs with Korinya and other ensembles on a regular basis. Sana has experience in print design, motion design, and UX design, and is strongly passionate about effective communication of concept, regardless of the medium. 
 </p></div>
  
    
 <section class="section">
-  <h1>Sana's Portfolio</h1>
+  <h1 class="portfoliotitle">Sana's Portfolio</h1>
   <div class="grid">
     <div class="item">
       <div class="item__details">

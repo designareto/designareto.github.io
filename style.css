@@ -20,6 +20,7 @@ a:hover
 
 nav {
     position: fixed;
+      z-index: 3;
 }
 #menuToggle
 {
@@ -28,7 +29,7 @@ nav {
   top: 50px;
   left: 50px;
   
-  z-index: 5;
+
   
   -webkit-user-select: none;
   user-select: none;
@@ -277,7 +278,7 @@ h4{
 /*for Name over image */
 .name{position:absolute; bottom:0;
 margin-left: 4%; margin-bottom: 15%;
-color: #E6EFF1}
+ z-index: 1;}
 
 .role {margin-top: -100px;}
 
@@ -285,14 +286,19 @@ color: #E6EFF1}
 .bio {padding:2%;
     margin-left: 15%;
     margin-right: 15%;
-        margin-top: 10%;
-
+margin-top: 15%;
 }
 p {
     line-height: 190%;
     font-size: 18px;
-    color: #D3A5A0;
 }
+
+.portfoliotitle {
+    font-size: 100px;
+    margin-top: 25%;
+}
+
+
 
 
 /*SAVS GRID PORTFOLIO BELOW */
@@ -345,38 +351,6 @@ p {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   cursor: pointer;
   counter-increment: item-counter;
-}
-
-.item:nth-of-type(1n) {
-  background-image: url(https://image.ibb.co/cxEfaJ/food.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-.item:nth-of-type(2n) {
-  background-image: url(https://image.ibb.co/cmjrhy/poster.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.item:nth-of-type(3n) {
-  background-image: url(https://image.ibb.co/hhTbhy/UX.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.item:nth-of-type(4n) {
-  background-image: url(https://image.ibb.co/jAAWhy/photography.jpg);
-}
-.item:nth-of-type(5n) {
-  background-color: #80ced6;
-}
-.item:nth-of-type(6n) {
-  background-image: url(https://image.ibb.co/gWvxNy/dote.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.item:nth-of-type(7n) {
-  background-image: url(https://image.ibb.co/j6kyed/SNEAKER_3.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 
@@ -449,4 +423,3 @@ p {
   
   }
   
-
