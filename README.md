@@ -1,8 +1,8 @@
 # Designare Website Documentation
-##A Project for Web and Mobile
-###OCAD University, Masters in Digital Futures Spring 2018
+## A Project for Web and Mobile
+### OCAD University, Masters in Digital Futures Spring 2018
 
-###Introduction
+### Introduction
 Hello, and welcome to our website for a proposed content creation/design and branding company called Designare. Our website incorporates HTML5, CSS, JQuery, Javascript, and SVG.
 
 Our design process initially started with a brainstorming session for figuring out:
@@ -12,19 +12,19 @@ Our design process initially started with a brainstorming session for figuring o
 4. Roles
 5. The vibe of our brand (list: award winning, youthful, community, experience, service, fresh)
 
-#Design process
+# Design process
 We decided on [this color palette](http://colorpalettes.net/color-palette-3501/ "Color palette").
 
-##Home page
+## Home page
 ![](img/home.png)
 
-##Profile page
+## Profile page
 ![](img/profile.png)
 
-##Home page, round 2
+## Home page, round 2
 ![](img/cover.png)
 
-#Continuing website strategy
+# Continuing website strategy
 Once we figured out what our company represented we searched for some websites to gain some ‘big’ inspiration, such as [this one](https://www.grandimage.com "Grand image").
 
 [This](https://codepen.io/ramenhog/pen/MpORPa) is the original code for the gallery.
@@ -45,7 +45,7 @@ As a side note, we also took time to work on our page and make it realistic by d
 
 
 
-###Things learned:
+### Things learned:
 Github Desktop. This was a learning curve because we found the ‘pulling’ and ‘fetching’ was not as smooth we assumed it to be. We started our website using this - however it kept deleting code and creating more errors, so we decided to put it on hold and have each of us working on code (we used Codepen and Atom) and send it to Sana to upload into Github.
 
 Another thing we learnt: Some of the code, like the Portfolio Gallery we coded, we chose code that was a little above and beyond our understanding, But it was a fun experiment for us to learn. Savaya worked on building the framework, Emma worked on updating the hover code, and Sana worked on fine tuning it to fit into our website theme and adjust the errors. 
