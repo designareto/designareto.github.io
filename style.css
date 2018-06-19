@@ -338,10 +338,8 @@ p {
   justify-content: flex-end;
   box-sizing: border-box;
   background: #0c9a9a;
-  color: #fff;
   grid-column-start: auto;
   grid-row-start: auto;
-  color: #fff;
   background: url(https://image.ibb.co/gWvxNy/dote.jpg);
   background-size: inherit;
   background-position: center;
@@ -359,7 +357,6 @@ p {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: black;
   opacity: 0;
   transition: opacity 0s ease-in-out;
 }
@@ -370,6 +367,8 @@ p {
           transform: scale(1.05);
   
 }
+
+/*this is what colors the hover on images*/
 .item:hover:after {
   opacity: .5;
   background-color: #c44e47;
