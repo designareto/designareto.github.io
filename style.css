@@ -407,8 +407,8 @@ p {
 
 /*this is what colors the hover on images*/
 .item:hover:after {
-  opacity: .5;
-  background-color: #c44e47;
+  opacity: .8;
+  background-color: #C44E47;
 
 }
 .item--small{
@@ -433,26 +433,91 @@ p {
  font-size: 18px;
   position: relative;
   z-index: 1;
-  padding: 100px;
   letter-spacing: 1px;
-  color: #c44e47;
+  color: #93251e;
   text-align:center;
   opacity:0;
   }
-/*SPECIFIC SIZING FOR THE HOVER OF THE PORTFOLIO TITLES*/
-.item.item--small .item__details {
-    padding-top:0px;
+
+h5 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
+
+/*SPECIFIC SIZING FOR THE HOVER OF THE PORTFOLIO TITLES*/
+
+/*this is for laptop size screen*/
+@media (min-width:1440px){
+.item.item--small .item__details {
+    padding-top: 15%;
+    }
+    
+    .item.item--small .item__details h5 {
+        padding-bottom: 8%;
+    }
 
 .item.item--large .item__details {
-    padding-top:85%;
+    padding-top:70%;
 }
+    .item.item--large .item__details h5 {
+    padding-bottom:67%;
+}
+
 
 .item.item--medium .item__details {
-    padding-top:50%;
+    padding-top:74%;
+}
+    .item.item--medium .item__details h5 {
+    padding-bottom:35%;
+}
+
+.item.item--full .item__details {
+    padding-top:12%;
+}
+    .item.item--full .item__details h5 {
+    padding-bottom:10%;
+}
+    
+    
+    
 }
 
 
+@media (max-width:1287px){
+.item.item--small .item__details {
+    padding-top: 8%;
+    }
+    
+    .item.item--small .item__details h5 {
+        padding-bottom: 6%;
+    }
+
+.item.item--large .item__details {
+    padding-top:47%;
+}
+    .item.item--large .item__details h5 {
+    padding-bottom:60%;
+}
+
+
+.item.item--medium .item__details {
+    padding-top:35%;
+}
+    .item.item--medium .item__details h5 {
+    padding-bottom:25%;
+}
+
+.item.item--full .item__details {
+    padding-top:12%;
+}
+    .item.item--full .item__details h5 {
+    padding-bottom:8%;
+}
+    
+    
+    
+}
 
 .item__details:before{
   font-weight: 0;
@@ -470,4 +535,134 @@ p {
   text-align:center;
   opacity:1;
  }
-  
+
+@media (max-width:1017px){
+.item.item--small .item__details {
+    padding-top: 8%;
+    }
+    
+    .item.item--small .item__details h5 {
+        padding-bottom: 6%;
+    }
+
+.item.item--large .item__details {
+    padding-top:49%;
+}
+    .item.item--large .item__details h5 {
+    padding-bottom:45%;
+}
+
+
+.item.item--medium .item__details {
+    padding-top:30%;
+}
+    .item.item--medium .item__details h5 {
+    padding-bottom:25%;
+}
+
+.item.item--full .item__details {
+    padding-top:18%;
+}
+    .item.item--full .item__details h5 {
+    padding-bottom:10%;
+}
+    
+    
+    
+}
+
+/*END PORTFOLIO HOVER MEDIA query*/
+
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width:1320px){
+    .scroll2 {
+        height: 3000px;
+    }
+}
+@media (max-width:890px){
+    h1 {
+        font-size: 90px;
+    }
+    h2 {
+        font-size: 20px;
+        line-height: 35px;
+        margin-left: -80px;
+    }
+    svg {
+        margin-left: -80px;
+    }
+    .circle1 {
+        margin-left:70px;
+        margin-top:80px;
+    }
+    .circle2{
+        margin-left: -90px;
+    }
+    
+        br {
+       display:none;
+    }
+    
+    .scroll1 {
+        margin-top: 0;
+        height: 750px;
+    }
+    .scroll2 {
+        display: none;
+    }
+    
+    
+    /*PORTFOLIO PAGE MEDIA QUERY*/
+    .portfoliotitle{
+        font-size: 50px;
+        margin-top:0;
+        margin-left: 1%;
+    }
+    .name {
+        
+        margin-left: 40px;
+        background-color: rgba(35, 35, 35, 0.65);
+        padding-left: 100px;
+        padding-right: 80px;
+        margin-right: 20px;
+}
+    
+  .role {
+        padding-top: 30px;
+    }
+    .bio h2 {
+        margin-left: 4px;
+    }
+    .bg {
+margin-left: -220px;    }
+    
+}
+
+@media (max-width:600px){
+    h1 {
+        font-size: 50px;
+        padding-top: 30%;
+   }
+    h1, h3  {
+        margin-left: -75px; 
+    }
+    #menuToggle {
+        margin-left: -20px;
+    }
+ 
+       h3 {
+        font-size: 20px;
+           padding-top:10%;
+           line-height: 30px;
+           
+    }
+
+    
+       svg {
+        margin-left: -170px;
+    }
+    
+}
